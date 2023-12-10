@@ -1,0 +1,1 @@
+python demo_custom.py -g inference_Waymo

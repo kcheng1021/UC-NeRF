@@ -1,0 +1,9 @@
+get_test_data_loader.datasetname = "Waymo"
+
+inference.ckpt = "pretrained/train_BlendedMVS.pth"
+
+multires.suffix1 = "_nf15"
+multires.suffix2 = "_nf25"
+
+fusion.rescale = 1
+fusion.suffix = "_nf15_nf25_th0.02"

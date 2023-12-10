@@ -1,0 +1,2 @@
+export DATA_DIR='/data12T/kcheng/NeuralStreetRecon/waymo/segment-10061305430875486848_1080_000_1100_000_with_camera_labels'
+python /data12T/kcheng/NeRF/UC-NeRF/Pose_refinement/colmap/scripts/mvs/all_cams_sfm.py --origin_path $DATA_DIR --input_path scene_after_pr/

@@ -1,0 +1,20 @@
+Config.dataset_loader = 'nuscenes'
+Config.near = 0.
+Config.far = 8.
+Config.factor = 4
+Config.forward_facing = False
+Config.adam_eps = 1e-8
+Config.batch_size = 4096
+Config.render_chunk_size = 4096
+
+Model.opaque_background = False
+Model.num_levels = 2
+Model.num_prop_samples = 128
+Model.num_nerf_samples = 32
+
+PropMLP.disable_density_normals = True
+PropMLP.disable_rgb = True
+NerfMLP.disable_density_normals = True
+
+NerfMLP.max_deg_point = 16
+PropMLP.max_deg_point = 16
