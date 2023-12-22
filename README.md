@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>UC-NeRF: Neural Radiance Field for Under-Calibrated multi-view cameras in autonomous driving </h1>
+<h1>UC-NeRF: Neural Radiance Field for Under-Calibrated Multi-view Cameras in Autonomous Driving </h1>
 
 
 ### [Project Page](https://kcheng1021.github.io/ucnerf.github.io/) | [arXiv](https://arxiv.org/abs/)
@@ -55,7 +55,7 @@ conda activate ucnerf
 pip install -r requirements.txt
 
 # Install other cuda extensions
-pip install ./extensions/cuda
+pip install ./gridencoder
 
 # Install nvdiffrast 
 git clone https://github.com/NVlabs/nvdiffrast
@@ -65,6 +65,15 @@ pip install ./nvdiffrast
 # see more detail at https://github.com/rusty1s/pytorch_scatter
 CUDA=cu113
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.0+${CUDA}.html
+```
+
+## 🚀 Dataset demo
+
+```
+Here we present a sample Waymo scene in https://drive.google.com/file/d/13kmc01KWUINgF5zHONJCYO7OPaWnLbrG/view?usp=drive_link.
+
+The detail tutorial of the preprocessing of Waymo dataset can be refered in https://github.com/PJLab-ADG/neuralsim/tree/main/dataio/autonomous_driving/waymo.
+
 ```
 
 ## 🚀 Start up
@@ -101,3 +110,9 @@ If you find this project useful in your research, please consider cite:
   year={2023}
 }
 ```
+
+----
+## Acknowledgements
+Thanks to [Zip-NeRF-Pytorch](https://github.com/SuLvXiangXin/zipnerf-pytorch) for amazing zipnerf pytorch implementation.
+
+
