@@ -69,12 +69,10 @@ pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.0+${CUDA}.html
 
 ## 🚀 Dataset demo
 
-```
-Here we present a sample Waymo scene in https://drive.google.com/file/d/13kmc01KWUINgF5zHONJCYO7OPaWnLbrG/view?usp=drive_link.
+Here we present a sample Waymo scene in [Waymo-100613](https://drive.google.com/file/d/13kmc01KWUINgF5zHONJCYO7OPaWnLbrG/view?usp=drive_link).
 
-The detail tutorial of the preprocessing of Waymo dataset can be refered in https://github.com/PJLab-ADG/neuralsim/tree/main/dataio/autonomous_driving/waymo.
+The detail tutorial of the preprocessing of Waymo dataset can be refered in [StreetSurf](https://github.com/PJLab-ADG/neuralsim/tree/main/dataio/autonomous_driving/waymo).
 
-```
 
 ## 🚀 Start up
 
