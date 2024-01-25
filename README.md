@@ -1,7 +1,6 @@
 <div align="center">
 
-<h1>UC-NeRF: Neural Radiance Field for Under-Calibrated Multi-view Cameras in Autonomous Driving </h1>
-
+  <h1 align="center">UC-NeRF: Neural Radiance Field for Under-Calibrated Multi-view Cameras in Autonomous Driving</h1>
 
 ### [Project Page](https://kcheng1021.github.io/ucnerf.github.io/) | [arXiv](https://arxiv.org/abs/)
 
