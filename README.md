@@ -100,10 +100,10 @@ If you find this project useful in your research, please consider cite:
 
 
 ```BibTeX
-@inproceedings{ucnerf,
-  title={UC-NeRF: Neural Radiance Field for Under-Calibrated Multi-view Cameras in Autonomous Driving},
-  author={Kai Cheng, Xiaoxiao Long, Wei Yin, Jin Wang, Zhiqiang Wu, Yuexin Ma, Kaixuan Wang, Xiaozhi Chen, Xuejin Chen},
-  journal={Arxiv},
+@article{cheng2023uc,
+  title={UC-NeRF: Neural Radiance Field for Under-Calibrated multi-view cameras in autonomous driving},
+  author={Cheng, Kai and Long, Xiaoxiao and Yin, Wei and Wang, Jin and Wu, Zhiqiang and Ma, Yuexin and Wang, Kaixuan and Chen, Xiaozhi and Chen, Xuejin},
+  journal={arXiv preprint arXiv:2311.16945},
   year={2023}
 }
 ```
