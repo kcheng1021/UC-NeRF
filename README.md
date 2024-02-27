@@ -2,7 +2,7 @@
 
   <h1 align="center">UC-NeRF: Neural Radiance Field for Under-Calibrated Multi-view Cameras in Autonomous Driving</h1>
 
-### [Project Page](https://kcheng1021.github.io/ucnerf.github.io/) | [arXiv](https://arxiv.org/abs/)
+### [Project Page](https://kcheng1021.github.io/ucnerf.github.io/)
 
 </div>
 
@@ -100,10 +100,10 @@ If you find this project useful in your research, please consider cite:
 
 
 ```BibTeX
-@article{cheng2023uc,
-  title={UC-NeRF: Neural Radiance Field for Under-Calibrated multi-view cameras in autonomous driving},
+@inproceedings{cheng2023uc,
+  title={UC-NERF: Neural Radiance Field for under-calibrated multi-view cameras},
   author={Cheng, Kai and Long, Xiaoxiao and Yin, Wei and Wang, Jin and Wu, Zhiqiang and Ma, Yuexin and Wang, Kaixuan and Chen, Xiaozhi and Chen, Xuejin},
-  journal={arXiv preprint arXiv:2311.16945},
+  booktitle={The Twelfth International Conference on Learning Representations},
   year={2023}
 }
 ```
