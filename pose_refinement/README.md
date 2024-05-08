@@ -29,7 +29,7 @@ sudo apt-get install \
 
 mkdir build
 cd build
-#cuda 10.1 works for me here. If cuda >= 11.3, there will be error on CUDA_ARCHITECTURE
+
 cmake .. -GNinja
 ninja
 sudo ninja install
