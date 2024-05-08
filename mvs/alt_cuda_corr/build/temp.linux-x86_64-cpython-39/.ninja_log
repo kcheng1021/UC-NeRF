@@ -1,0 +1,5 @@
+# ninja log v5
+1	36384	1701871401074435593	/data12T/kcheng/NeRF/UC-NeRF/CER-MVS-main/alt_cuda_corr/build/temp.linux-x86_64-cpython-39/correlation.o	8d68f3983ea1472a
+1	207400	1701871572075174181	/data12T/kcheng/NeRF/UC-NeRF/CER-MVS-main/alt_cuda_corr/build/temp.linux-x86_64-cpython-39/correlation_kernel.o	c3c095b933380d73
+8	11607	1715127902385308886	/data/kcheng/codes/UC-NeRF/mvs/alt_cuda_corr/build/temp.linux-x86_64-cpython-39/correlation.o	b5afb7ce3c27cf36
+8	138189	1715128028956667288	/data/kcheng/codes/UC-NeRF/mvs/alt_cuda_corr/build/temp.linux-x86_64-cpython-39/correlation_kernel.o	ecc1821328d063de

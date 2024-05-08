@@ -1,0 +1,2 @@
+export DATA_DIR='/data/kcheng/codes/waymo/segment-10061305430875486848_1080_000_1100_000_with_camera_labels'
+python all_cams_sfm.py --input_path '/data/kcheng/codes/waymo/segment-10061305430875486848_1080_000_1100_000_with_camera_labels/scene_after_pr/' --origin_path $DATA_DIR 
