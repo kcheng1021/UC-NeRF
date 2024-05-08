@@ -139,7 +139,7 @@ def fusion(
         refid_to_index[refid] = i
         pair_data.append((image_names[0][0], [x[0] for x in image_names[1:]]))
         ref_img = images[0].permute(1, 2, 0).numpy() / 255.
-        ref_depth_est = read_gen(output_folder / "depths" / f"{refid}{suffix}.pfm")
+        ref_depth_est = read_gen(os.path.join(output_folder, "depths", f"{refid}{suffix}.pfm"))
 
         h, w = ref_depth_est.shape
         ref_depth_est = cv2.resize(ref_depth_est, (int(w * rescale), int(h * rescale)))
@@ -276,10 +276,10 @@ def fusion(
                 geo_mask = geo_mask.cpu().numpy()
 
                 depth_est_averaged[~geo_mask] = 0
-                np.save(output_folder / "depths" / f"{refid}.npy", depth_est_averaged)
-                write_vis(output_folder / "depths" / f"{refid}_vis.png", depth_est_averaged)
+                np.save(os.path.join(output_folder, "depths", f"{refid}.npy"), depth_est_averaged)
+                write_vis(os.path.join(output_folder, "depths", f"{refid}_vis.png"), depth_est_averaged)
 
-                save_mask(output_folder / "mask" / f"{ref_view}{suffix}.png", geo_mask)
+                save_mask(os.path.join(output_folder, "mask", f"{ref_view}{suffix}.png"), geo_mask)
                 print(f"ref-view{ref_view}, mask:{geo_mask.mean()}")
                 valid_points = geo_mask
             
